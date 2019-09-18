@@ -22,11 +22,8 @@ class Dog
   end
 
   def self.print_all
-    count = 0
- self.each do |name|
-if @@song_name = [] puts @@song_name
-  song_name += 1
+  @@song_name.puts
   end
-end
+
 
 end
