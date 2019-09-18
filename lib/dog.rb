@@ -23,7 +23,7 @@ class Dog
 
   def self.print_all
     count = 0
- @@song_name.each do |name|
+ self.each do |name|
 if @@song_name = [] puts @@song_name
   song_name += 1
   end
