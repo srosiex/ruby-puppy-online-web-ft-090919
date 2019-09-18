@@ -2,7 +2,7 @@ class Dog
   @@all = []
   @@clear_all = []
   @@print_all = []
-  @@song_name = []
+  @@dog_name = []
   attr_accessor :name
 
   def initialize(name)
@@ -22,7 +22,7 @@ class Dog
   end
 
   def self.print_all
-  @@song_name.push
+  puts @@dog_name
   end
 
 
