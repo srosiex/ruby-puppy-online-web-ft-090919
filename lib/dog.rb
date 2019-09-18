@@ -29,6 +29,6 @@ class Dog
   puts @@dog_name}
   # all_names
   end
-
+print_all
 
 end
