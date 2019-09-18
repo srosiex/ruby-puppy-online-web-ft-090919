@@ -24,6 +24,6 @@ class Dog
   def self.print_all
 puts "@@song_name"
   end
-end
+
 
 end
