@@ -23,9 +23,10 @@ class Dog
 
 
   def self.print_all
-  @@dog_name
-    @@dog_name.each do |dog_name|
-  puts @@dog_name
+  all_names = Array.new(0)
+    @@dog_name.each {|dog_name|
+  puts @@dog_name}
+  all_names
   end
 end
 
