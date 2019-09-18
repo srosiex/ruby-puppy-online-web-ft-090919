@@ -2,10 +2,11 @@ class Dog
   @@all = []
   @@clear_all = []
   @@print_all = []
-  attr_accessor :name
+  attr_accessor :name :save
 
-  def initialize(name)
+  def initialize(name, save)
     @name = name
+    @save = save
     @@all << self
     @@clear_all << @@all
     @@print_all << @@all
@@ -26,8 +27,9 @@ def self.print_all
   end
 end
 
-#   def save
-# @@all << self
-#   end
+
+  def save
+@@all << self
+  end
 
 end
