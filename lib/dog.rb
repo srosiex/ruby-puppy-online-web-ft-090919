@@ -25,7 +25,7 @@ class Dog
   def self.print_all
   all_names = Array.new(0)
     @@dog_name.each {|dog_name|
-  puts @@dog_name += 1}
+  puts @@dog_name}
   all_names
   end
 
