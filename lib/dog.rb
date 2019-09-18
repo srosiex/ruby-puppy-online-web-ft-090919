@@ -20,13 +20,19 @@ class Dog
   def self.clear_all
 @@all.clear
   end
-counter = 1
+
+
   def self.print_all
-    @@dog_name. each do |dog_name|
+  counter = 1
+    @@dog_name.each do |dog_name|
   puts @@dog_name
 counter += 1
   end
 end
 
-
 end
+
+fido = Dog.new("fido")
+bucky = Dog.new("bucky")
+
+Dog.print_all
