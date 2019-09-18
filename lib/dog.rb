@@ -22,6 +22,7 @@ class Dog
   end
 
   def self.print_all
+ self.each do |name|
 puts @@song_name
   end
 
