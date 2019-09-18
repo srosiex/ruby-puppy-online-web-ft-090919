@@ -23,7 +23,7 @@ class Dog
 
 
   def self.print_all
-  counter = 1
+  @@dog_name
     @@dog_name.each do |dog_name|
   puts @@dog_name
 counter += 1
