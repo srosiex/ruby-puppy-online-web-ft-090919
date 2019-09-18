@@ -10,7 +10,7 @@ class Dog
     @@all << self
     @@clear_all << @@all
     @@print_all << @@all
-    @@song_name << @name
+    @@dog_name << @name
   end
 
   def self.all
