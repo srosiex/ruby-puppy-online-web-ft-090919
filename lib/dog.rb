@@ -26,7 +26,6 @@ class Dog
   @@dog_name
     @@dog_name.each do |dog_name|
   puts @@dog_name
-counter += 1
   end
 end
 
