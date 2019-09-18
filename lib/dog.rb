@@ -22,5 +22,5 @@ class Dog
   def self. print_all
 @@all.print
   end
-  
+
 end
