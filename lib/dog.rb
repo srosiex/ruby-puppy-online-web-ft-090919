@@ -14,7 +14,8 @@ class Dog
   end
 
   def self.all
-    @@all
+    @@all.each do |dog|
+      puts dog.name
   end
 
   def self.clear_all
@@ -22,13 +23,13 @@ class Dog
   end
 
 
-  def self.print_all
-  all_names = []
-  # all_names = Array.new(0)
-   all_names << @@dog_name.each {|dog_name|
-  puts @@dog_name}
-  # all_names
-  end
-print_all
+#   def self.print_all
+#   all_names = []
+#   # all_names = Array.new(0)
+#    all_names << @@dog_name.each {|dog_name|
+#   puts @@dog_name}
+#   # all_names
+#   end
+# print_all
 
 end
