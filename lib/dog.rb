@@ -31,8 +31,3 @@ counter += 1
 end
 
 end
-
-fido = Dog.new("fido")
-bucky = Dog.new("bucky")
-
-Dog.print_all
