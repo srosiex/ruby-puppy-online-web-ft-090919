@@ -4,7 +4,7 @@ class Dog
   @@print_all = []
   attr_accessor :name, :save
 
-  def initialize(name, save)
+  def initialize(name)
     @name = name
     @save = save
     # @@all << self
