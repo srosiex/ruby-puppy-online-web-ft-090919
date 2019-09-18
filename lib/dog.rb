@@ -25,6 +25,6 @@ class Dog
  self.each do |name|
 puts @@song_name
   end
-
+end
 
 end
