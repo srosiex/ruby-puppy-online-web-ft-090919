@@ -23,6 +23,7 @@ class Dog
 
   def self.print_all
   puts @@dog_name
+  @@dog_name += 1
   end
 
 
