@@ -20,11 +20,13 @@ class Dog
   def self.clear_all
 @@all.clear
   end
-
+counter = 1
   def self.print_all
+    @@dog_name. each do |dog_name|
   puts @@dog_name
-  @@dog_name += 1
+counter += 1
   end
+end
 
 
 end
