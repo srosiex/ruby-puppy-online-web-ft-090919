@@ -17,5 +17,3 @@ class Dog
 @@clear_all.clear
   end
 end
-
-
