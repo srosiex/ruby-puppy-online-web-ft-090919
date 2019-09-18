@@ -22,7 +22,7 @@ class Dog
   end
 
   def self.print_all
-  @@song_name.puts
+  @@song_name.push
   end
 
 
